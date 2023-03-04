@@ -1,7 +1,8 @@
-let select = prompt('Select an action +-/*');
-let num1 = +prompt('Enter first number');
-let num2 = +prompt ('Enter second number');
+const select = prompt('Select an action +-/*');
+const num1 = +prompt('Enter first number');
+const num2 = +prompt ('Enter second number');
 let results = null;
+
 
 switch (select) {
     case '+':
